@@ -1,4 +1,8 @@
 *{
     padding: 0px;
     margin: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serifs;
+}
+.name{
+    border-radius: 5px; border-style: solids;
 }
