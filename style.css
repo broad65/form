@@ -5,15 +5,40 @@
 }
 .name{
     border-radius: 5px; border: 2px solid black;
+  
+}
+.pd{
+    text-align: center;
 }
 .date{
     border-radius: 5px; border: 2px solid black;
+  
 }
 .button{
     border-radius: 5px;
     background-color: rgb(16, 16, 226);
+    
 }
 .salutation{
     border: 2px solid black;
     border-radius: 5px;
+   
+}
+.container{  
+  display: flex; 
+  align-items: center;
+  align-content: center;
+  flex-wrap: wrap;
+  align-self: center;
+}
+#grid{
+    display: grid;
+    grid-column: 20px;
+    grid-row: 10px;
+    grid-template-columns: 200px;
+
+}
+div{
+    width: 500px;
+    height: 500px;
 }

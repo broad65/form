@@ -7,15 +7,11 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div id="grid div">
     <form  action="my handling form page" method="post"></form>
-    <div class="container">
-        <div class="salutation"></div>
-        <div class="name"></div>
-        <div class="date"></div>
-        <div class="button"></div>
-    </div>
+    
     <fieldset>
-            <legend>personal details</legend>
+            <legend class="pd">personal details</legend>
             <label for="salutation">
                 <span>salutation</span>
             </label>
@@ -39,15 +35,16 @@
                 </li>
                 <br>
                 <label for="date of birth">Date of birth
-                    <input class="date" id="date of birth">
+                    <input class="date " id="date of birth">
                 </label>
                  <li>
                     <label for="message">Address</label>
                     <br>
-        <textarea name="address" id="address" class="date" rows="10"></textarea>
+        <textarea name="address" id="address" class="date container" rows="10"></textarea>
                 </li>
-                 <button class="button">Submit</button>
+                 <button class="button ">Submit</button>
             </ul>
     </fieldset>
+    </div>
 </body>
 </html>
