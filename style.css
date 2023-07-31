@@ -23,5 +23,17 @@ div{
     padding: 0.2rem 0;
     color: #0e71ea;
 }
+.form-content, ul {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding-top: 1rem;
+}
+.form-content, ul {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding-top: 1rem;
+}
 
 
