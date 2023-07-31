@@ -4,4 +4,10 @@
     left: 50%;
     transform: translate(-50% -50%);
     width: 30%;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    padding: 2rem;
+    border-radius: 15px;
+    color: rgb(143, 140, 140);
 }
+
+
