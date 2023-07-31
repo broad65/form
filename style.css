@@ -16,5 +16,12 @@
 div{
     display: block;
 }
+.head {
+    font-size: 1.5rem;
+    font-weight: 400;
+    text-align: center;
+    padding: 0.2rem 0;
+    color: #0e71ea;
+}
 
 
