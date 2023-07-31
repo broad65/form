@@ -9,5 +9,12 @@
     border-radius: 15px;
     color: rgb(143, 140, 140);
 }
+*{
+    margin: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+div{
+    display: block;
+}
 
 
