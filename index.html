@@ -7,44 +7,40 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div id="grid div">
-    <form  action="my handling form page" method="post"></form>
-    
-    <fieldset>
-            <legend class="pd">personal details</legend>
-            <label for="salutation">
-                <span>salutation</span>
-            </label>
-            <br>
-            <select name="salutation" id="salutation" class="salutation">
-                <option value="sir">Sir</option>
-                <option value="madam">Madam</option>
-            </select>
-            <br>
-               <ul>
-                <li>
-                    <label for="first name">First name:</label>
-                    <br>
-                    <input class="name" type="text" id=" name" name="last name">
-                </li>
-                <br>
-                                <li>
-                    <label for="name">Last name</label>
-                    <br>
-                    <input class="name" type="text" id="name" name="last name">
-                </li>
-                <br>
-                <label for="date of birth">Date of birth
-                    <input class="date " id="date of birth">
-                </label>
-                 <li>
-                    <label for="message">Address</label>
-                    <br>
-        <textarea name="address" id="address" class="date container" rows="10"></textarea>
-                </li>
-                 <button class="button ">Submit</button>
-            </ul>
-    </fieldset>
+    <div class="form">
+        <form action="my handling form page" method="post">
+            <p class="head">Personal details</p>
+            <div class="form-content">
+                <div class="salutation">
+                    <label for="salutation">
+                        <span>Salutation</span>
+                    </label>
+                    <select name="salutation" id="salutation">
+                        <option value="Sir">Sir</option>
+                        <option value="Madam">Madam</option>
+                    </select>
+                </div>
+                <ul>
+                    <li>
+                        <label for="first name">First name:</label>
+                        <input class="item" type="text" id=" name" name="last name">
+                    </li>
+                    <li>
+                        <label for="name">Last name</label>
+                        <input class="item" type="text" id="name" name="last name">
+                    </li>
+                    <label for="date of birth">Date of birth
+                        <input class="item" type="date" id="date of birth">
+                    </label>
+                    <li>
+                        <label for="message">Address</label>
+
+                        <textarea name="address" id="address" cols="30" rows="10"></textarea>
+                    </li>
+                    <button class="item">Submit</button>
+                </ul>
+            </div>
+        </form>
     </div>
 </body>
-</html>
+   
