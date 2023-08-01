@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>form</title>
+  feature/form-styling
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -44,3 +45,43 @@
     </div>
 </body>
    
+=======
+</head>
+<body>
+    <form action="my handling form page" method="post"></form>
+    
+    <fieldset>
+            <legend>personal details</legend>
+            <label for="salutation">
+                <span>salutation</span>
+            </label>
+            <br>
+            <select name="salutation" id="salutation">
+                <option value="sir">Sir</option>
+                <option value="madam">Madam</option>
+            </select>
+            <br>
+               <ul>
+                <li>
+                    <label for="first name">First name:</label>
+                    <input type="text" id=" name" name="last name">
+                </li>
+                <br>
+                                <li>
+                    <label for="name">Last name</label>
+                    <input type="text" id="name" name="last name">
+                </li>
+                <br>
+                <label for="date of birth">Date of birth
+                    <input type="date" id="date of birth">
+                </label>
+                 <li>
+                    <label for="message">Address</label>
+                    <br>
+        <textarea name="address" id="address" cols="30" rows="10"></textarea>
+                </li>
+                 <button>Submit</button>
+            </ul>
+    </fieldset>
+</body>
+</html>
