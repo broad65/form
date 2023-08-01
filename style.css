@@ -1,0 +1,133 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.form{
+    transform: translate(-50% -50%);
+    width: 30%;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    padding: 2rem;
+    border-radius: 15px;
+    color: rgb(143, 140, 140);
+}
+.head {
+    font-size: 1.5rem;
+    font-weight: 400;
+    text-align: center;
+    padding: 0.2rem 0;
+    color: #0e71ea;
+}
+.form-content, ul {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding-top: 1rem;
+}
+.salutation {
+    display: inline-flex;
+    gap: 1rem;
+    align-items: center;
+}
+#salutation {
+    height: 1.5rem;
+    border: 1px solid gray;
+    background-color: none;
+    border-radius: 5px;
+}
+option {
+    font-weight: normal;
+    display: block;
+    white-space-collapse: collapse;
+    text-wrap: nowrap;
+    min-height: 1.2em;
+    padding: 0px 2px 1px;
+}
+li {
+    display: flex;
+    flex-direction: column;
+}
+li {
+    list-style: none;
+}
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+label {
+    cursor: default;
+}
+.item, textarea {
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+.item {
+    height: 2rem;
+}
+input{
+    adding: 0 0.75rem;
+    color: grey;
+}
+li {
+    display: flex;
+    flex-direction: column;
+}
+li {
+    list-style: none;
+}
+label {
+    cursor: default;
+}
+li {
+    list-style: none;
+}
+li {
+    text-align: -webkit-match-parent;
+}
+.item, textarea {
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+.item {
+    height: 2rem;
+}
+label {
+    cursor: default;
+}
+ul {
+    list-style-type: disc;
+}
+.item, textarea {
+    border: 1px solid grey;
+border-radius: 5px;}
+    .item {
+        height: 2rem;
+    }
+    input {
+        padding: 0 0.75rem;
+        color: grey;
+    }
+    li {
+        display: flex;
+        flex-direction: column;
+    }
+    li {
+        list-style: none;
+    }
+    ul {
+        gap: 1rem;
+    }
+    .item, textarea {
+        border: 1px solid grey;
+        border-radius: 5px;
+    }
+    .item {
+        height: 2rem;
+    }
+    button {
+        color: whitesmoke;
+        background-color: #0e71ea;
+        border: none;
+        box-shadow: none;
+    }
+
