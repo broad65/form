@@ -7,12 +7,25 @@
 </head>
 <body>
     <form action="post">
-        <head id="head">personal details</head><br>
+        <div>
+        <head id="head">personal details</head></div><br>
+        <div>
+            <label for="salutaion">
+                salutation
+        </label>
         <select name="salutation" id="#">
-            salutation
-            <option value="sir" selected>Sir</option>
-            <option value="madam">Madam</option>
-        </select>
+            <option value="sir" selected required>Sir</option>
+            <option value="madam" required>Madam</option><br>
+        </select></div>
+        <div class="name section">
+                <label for="name">
+                    Firstname
+                    <input type="text">
+                    <br>
+                    Lastname
+                    <input type="text">
+                </label>
+        </div>
     </form>
 </body>
 </html>
