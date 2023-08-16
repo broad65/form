@@ -50,7 +50,7 @@ option {
 }
 li {
     display: flex;
-    flex-direction: column;
+    flex-direction: column;s
 }
 li {
     list-style: none;
