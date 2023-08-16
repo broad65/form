@@ -5,37 +5,43 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>form</title>
 </head>
+<link rel="stylesheet" href="style.css">
 <body>
-    <form action="post">
-        <div>
-        <head id="head">personal details</head></div><br>
-        <div>
+    <form action="post" class="form-content">
+        <div class="head">
+        <head >personal details</head></div><br>
+        <div class="salutaion">
             <label for="salutaion">
                 salutation
         </label>
-        <select name="salutation" id="#">
+        <select name="salutation" id="salutaion">
             <option value="sir" selected required>Sir</option>
             <option value="madam" required>Madam</option><br>
         </select></div>
-        <div class="name section">
-                <label for="name">
-                    Firstname
-                    <input type="text">
-                    <br>
-                    Lastname
-                    <input type="text">
-                </label>
-                <div id="$">
-                    <label for="date">
-                        Date
-                        <input type="date"><br>
-                        <label for="address">
-                           Address <br>
-                           <textarea name="address" id="add" cols="30" rows="10"></textarea>
-                        </label>
-                    </label>
+        <div class="name-section">
+            <ul>
+                <li>
+                    <label for="name">
+                        Firstname
+                        <input type="text">
+                    </label><br>
+                    <li>
+                        <label for="name">
+                            Lastname
+                            <input type="text">
+                        </label><br>
+                        <li>
+                            <label for="address">
+                                Address <br>
+                                <textarea name="address" id="add" cols="30" rows="10"></textarea>
+                            </label>
+                        </li>
+                    </li>
+                </li>
+
+            </ul>
                 </div>
-                <div>
+                <div id="btn">
                     <button>submit</button>
                 </div>
         </div>

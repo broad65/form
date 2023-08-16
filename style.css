@@ -3,13 +3,14 @@
     margin: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-.form{
+.form-content{
     transform: translate(-50% -50%);
     width: 30%;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
     padding: 2rem;
     border-radius: 15px;
-    color: rgb(143, 140, 140);
+    color: rgb(32, 17, 17);
+    
 }
 .head {
     font-size: 1.5rem;
@@ -18,16 +19,19 @@
     padding: 0.2rem 0;
     color: #0e71ea;
 }
-.form-content, ul {
+.name-section{
     display: flex;
     flex-direction: column;
     width: 100%;
     padding-top: 1rem;
+    align-items: center;
+    justify-content: center;
 }
 .salutation {
     display: inline-flex;
     gap: 1rem;
     align-items: center;
+    justify-content: centers;
 }
 #salutation {
     height: 1.5rem;
