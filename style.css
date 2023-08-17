@@ -26,114 +26,49 @@
     padding-top: 1rem;
     justify-content: center;
     align-items: center;
-  
 }
-.salute {
+.salute{
     display: inline-flex;
     gap: 1rem;
     align-items: center;
-    justify-content: centers;
+    justify-content: center;
 }
-#salutation {
+#salutation{
     height: 1.5rem;
-    border: 1px solid gray;
-    background-color: none;
-    border-radius: 5px;
-}
-option {
-    font-weight: normal;
-    display: block;
-    white-space-collapse: collapse;
-    text-wrap: nowrap;
-    min-height: 1.2em;
-    padding: 0px 2px 1px;
-}
-li {
-    display: flex;
-    flex-direction: column;s
-}
-li {
-    list-style: none;
-}
-li {
-    display: list-item;
-    text-align: -webkit-match-parent;
-}
-label {
-    cursor: default;
-}
-textarea {
     border: 1px solid grey;
     border-radius: 5px;
 }
-.item {
-    height: 2rem;
+.option{
+    font-weight: normal;
+    display: block;
+    white-space: collapse;
+    min-height: 1.2rem;
+    padding: 0px 2px 1px;
 }
-input{
-    adding: 0 0.75rem;
-    color: grey;
-}
-li {
+li{
     display: flex;
     flex-direction: column;
 }
-li {
+li{
     list-style: none;
 }
-label {
+li{
+    display: list-item;
+    text-align: webkit-match-parent;
+}
+label{
     cursor: default;
 }
-li {
-    list-style: none;
-}
-li {
-    text-align: -webkit-match-parent;
-}
-.item, textarea {
+textarea{
     border: 1px solid grey;
     border-radius: 5px;
-    display: flex;
 }
-.item {
+.item{
     height: 2rem;
 }
-label {
-    cursor: default;
+button{
+    color: whitesmoke;
+    background-color: #0e71ea;
+    border: none;
+    box-shadow: none;
 }
-ul {
-    list-style-type: disc;
-}
-.item, textarea {
-    border: 1px solid grey;
-border-radius: 5px;}
-    .item {
-        height: 2rem;
-    }
-    input {
-        padding: 0 0.75rem;
-        color: grey;
-    }
-    li {
-        display: flex;
-        flex-direction: column;
-    }
-    li {
-        list-style: none;
-    }
-    ul {
-        gap: 1rem;
-    }
-    .item, textarea {
-        border: 1px solid grey;
-        border-radius: 5px;
-    }
-    .item {
-        height: 2rem;
-    }
-    button {
-        color: whitesmoke;
-        background-color: #0e71ea;
-        border: none;
-        box-shadow: none;
-    }
-
