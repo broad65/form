@@ -39,10 +39,7 @@ form{
     height: 1.5rem;
     border: 1px solid gray;
     background-color: none;
-   
-}
-.salute{
-    border-radius: 5px;
+    border-radius: 5px; 
 }
 option {
     font-weight: normal;
@@ -83,7 +80,7 @@ ul {
     list-style-type: disc;
     display: flex;
     flex-direction: column;
-    width: 100%;
+    width: 80%;
 }
 li {
     display: flex;
@@ -153,5 +150,5 @@ border-radius: 5px;}
     #btn{
         display: flex;
         flex-direction: column;
-        width: 100%;
+        width: 80%;
     }
