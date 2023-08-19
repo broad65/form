@@ -13,6 +13,7 @@
     position: absolute;
     top: 50%;
     left: 50%;
+    gap: 2px;
     
 }
 .head {
@@ -40,6 +41,16 @@
     height: 1.5rem;
     border: 1px solid grey;
     border-radius: 5px;
+}
+input{
+    border-radius: 15px;
+    margin: 4px;
+    width: 50%;
+}
+textarea{
+    border-radius: 15px;
+    display: flex;
+    width: 100%;
 }
 .option{
     font-weight: normal;
@@ -74,4 +85,8 @@ button{
     background-color: #0e71ea;
     border: none;
     box-shadow: none;
+    width: 100%;
+    padding: 2px;
+    margin: 8px;
+    border-radius: 7px;
 }
