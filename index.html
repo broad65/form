@@ -4,54 +4,48 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>form</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-<link rel="stylesheet" href="style.css">
 <body>
-    <form action="post" id="form-content">
-        <div class="head">
-        <head >personal details</head></div><br>
-        <div class="salute">
-            <label for="salutaion">
-                salutation
-        </label>
-        <select name="salutation" id="salutaion">
-            <option value="sir" selected required>Sir</option>
-            <option value="madam" required>Madam</option><br>
-        </select></div>
-        <div class="name-section">
-            <ul>
-                <li>
-                    <label for="name">
-                        Firstname  
-                        <input type="text" required>
-                    </label><br>
-                    <li><br>
-                        <label for="name">
-                            Lastname 
-                            <input type="text" required>
-                        </label>
-                        <li><br>
-                            <label for="date">
-                                Date 
-                                <input type="date" required>
-                            </label><br>
-                           
+    <div class="form">
+        <form action="handling my form page" method="post">
+            <p class="head"> personal details</p>
+            <div class="form-content"> 
+                <div class="salutation">
+                    <label for="salutation">
+                        <span>salutation</span>
+                        <select name="salutation" id="salutation">
+                            <option value="Sir">Sir</option>
+                            <option value="Madam">Madam</option>
+                        </select>
+                    </label>
+                </div>
+                <ul>
+                    <li>
+                        <label for="firstname">Firstname</label>
+                        <input  type="text" class="item">
                         <li>
-                            <label for="address">
-                                Address <br>
-                                <textarea name="address" id="add" cols="30" rows="10" required></textarea>
-                            </label>
+                            <label for="lastname">Lastname</label>
+                            <input type="text" class="item">
+                            <li>
+                                <label for="date">Date</label>
+                                <input type="date" class="item">
+                                <li>
+                                    <label for="message">Address</label>
+                                    <textarea name="address" id="address" cols="30" rows="10"></textarea>
+                                    <li>
+                                        <button class="item">Submit</button>
+                                    </li>
+                                </li>
+                            </li>
                         </li>
                     </li>
-                    </li>
-                </li>
-
-            </ul>
-                </div>
-                <div id="btn">
-                    <button>submit</button>
-                </div>
-        </div>
-    </form>
+                    
+                </ul>
+                
+            </div>
+        </form>
+    </div>
 </body>
 </html>
+       
