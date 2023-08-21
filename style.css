@@ -3,13 +3,25 @@
     margin: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-.form{
-    transform: translate(-50% -50%);
+.form {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     width: 30%;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
     padding: 2rem;
     border-radius: 15px;
     color: rgb(143, 140, 140);
+}
+
+.form-content, ul {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding-top: 1rem;}
+div{
+    display: block;
 }
 .head {
     font-size: 1.5rem;
@@ -18,22 +30,16 @@
     padding: 0.2rem 0;
     color: #0e71ea;
 }
-.form-content, ul {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    padding-top: 1rem;
-}
+
 .salutation {
     display: inline-flex;
     gap: 1rem;
-    align-items: center;
 }
 #salutation {
     height: 1.5rem;
     border: 1px solid gray;
     background-color: none;
-    border-radius: 5px;
+    border-radius: 5px; 
 }
 option {
     font-weight: normal;
@@ -56,6 +62,7 @@ li {
 }
 label {
     cursor: default;
+    color: grey;
 }
 .item, textarea {
     border: 1px solid grey;
@@ -65,8 +72,13 @@ label {
     height: 2rem;
 }
 input{
-    adding: 0 0.75rem;
+    padding: 0 0.75rem;
     color: grey;
+    border-radius: 7.5px;}
+
+ul {
+    list-style-type: disc;
+    
 }
 li {
     display: flex;
@@ -87,15 +99,14 @@ li {
 .item, textarea {
     border: 1px solid grey;
     border-radius: 5px;
+
 }
 .item {
     height: 2rem;
 }
 label {
     cursor: default;
-}
-ul {
-    list-style-type: disc;
+    color: grey;
 }
 .item, textarea {
     border: 1px solid grey;
@@ -114,9 +125,6 @@ border-radius: 5px;}
     li {
         list-style: none;
     }
-    ul {
-        gap: 1rem;
-    }
     .item, textarea {
         border: 1px solid grey;
         border-radius: 5px;
@@ -129,5 +137,9 @@ border-radius: 5px;}
         background-color: #0e71ea;
         border: none;
         box-shadow: none;
+        padding: 4px;
+        margin: 1rem 0;
+        border-radius: 5px;
+
     }
 
